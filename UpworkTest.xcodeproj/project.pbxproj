@@ -11,7 +11,24 @@
 		6BB6BDFA2971A3B6002DFF14 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BB6BDF92971A3B6002DFF14 /* ContentView.swift */; };
 		6BB6BDFC2971A3B7002DFF14 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6BB6BDFB2971A3B7002DFF14 /* Assets.xcassets */; };
 		6BB6BDFF2971A3B7002DFF14 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6BB6BDFE2971A3B7002DFF14 /* Preview Assets.xcassets */; };
+		6BB6BE062971A3C2002DFF14 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BB6BE052971A3C2002DFF14 /* ViewModel.swift */; };
+		6BB6BE082971A427002DFF14 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BB6BE072971A427002DFF14 /* Model.swift */; };
+		6BB6BE0A2971A6A9002DFF14 /* UserRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BB6BE092971A6A9002DFF14 /* UserRowView.swift */; };
+		6BB6BE122971C406002DFF14 /* UpworkTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BB6BE112971C406002DFF14 /* UpworkTestTests.swift */; };
+		6BB6BE182971C412002DFF14 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BB6BE052971A3C2002DFF14 /* ViewModel.swift */; };
+		6BB6BE192971C42A002DFF14 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BB6BE072971A427002DFF14 /* Model.swift */; };
+		6BB6BE1B2971C564002DFF14 /* UserDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BB6BE1A2971C564002DFF14 /* UserDetailView.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6BB6BE132971C406002DFF14 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6BB6BDEC2971A3B6002DFF14 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6BB6BDF32971A3B6002DFF14;
+			remoteInfo = UpworkTest;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		6BB6BDF42971A3B6002DFF14 /* UpworkTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UpworkTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -19,10 +36,23 @@
 		6BB6BDF92971A3B6002DFF14 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		6BB6BDFB2971A3B7002DFF14 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6BB6BDFE2971A3B7002DFF14 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6BB6BE052971A3C2002DFF14 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		6BB6BE072971A427002DFF14 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		6BB6BE092971A6A9002DFF14 /* UserRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRowView.swift; sourceTree = "<group>"; };
+		6BB6BE0F2971C406002DFF14 /* UpworkTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UpworkTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BB6BE112971C406002DFF14 /* UpworkTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpworkTestTests.swift; sourceTree = "<group>"; };
+		6BB6BE1A2971C564002DFF14 /* UserDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		6BB6BDF12971A3B6002DFF14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BB6BE0C2971C406002DFF14 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -36,6 +66,7 @@
 			isa = PBXGroup;
 			children = (
 				6BB6BDF62971A3B6002DFF14 /* UpworkTest */,
+				6BB6BE102971C406002DFF14 /* UpworkTestTests */,
 				6BB6BDF52971A3B6002DFF14 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -44,6 +75,7 @@
 			isa = PBXGroup;
 			children = (
 				6BB6BDF42971A3B6002DFF14 /* UpworkTest.app */,
+				6BB6BE0F2971C406002DFF14 /* UpworkTestTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -53,6 +85,10 @@
 			children = (
 				6BB6BDF72971A3B6002DFF14 /* UpworkTestApp.swift */,
 				6BB6BDF92971A3B6002DFF14 /* ContentView.swift */,
+				6BB6BE052971A3C2002DFF14 /* ViewModel.swift */,
+				6BB6BE072971A427002DFF14 /* Model.swift */,
+				6BB6BE092971A6A9002DFF14 /* UserRowView.swift */,
+				6BB6BE1A2971C564002DFF14 /* UserDetailView.swift */,
 				6BB6BDFB2971A3B7002DFF14 /* Assets.xcassets */,
 				6BB6BDFD2971A3B7002DFF14 /* Preview Content */,
 			);
@@ -65,6 +101,14 @@
 				6BB6BDFE2971A3B7002DFF14 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6BB6BE102971C406002DFF14 /* UpworkTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				6BB6BE112971C406002DFF14 /* UpworkTestTests.swift */,
+			);
+			path = UpworkTestTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -87,6 +131,24 @@
 			productReference = 6BB6BDF42971A3B6002DFF14 /* UpworkTest.app */;
 			productType = "com.apple.product-type.application";
 		};
+		6BB6BE0E2971C406002DFF14 /* UpworkTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6BB6BE152971C406002DFF14 /* Build configuration list for PBXNativeTarget "UpworkTestTests" */;
+			buildPhases = (
+				6BB6BE0B2971C406002DFF14 /* Sources */,
+				6BB6BE0C2971C406002DFF14 /* Frameworks */,
+				6BB6BE0D2971C406002DFF14 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6BB6BE142971C406002DFF14 /* PBXTargetDependency */,
+			);
+			name = UpworkTestTests;
+			productName = UpworkTestTests;
+			productReference = 6BB6BE0F2971C406002DFF14 /* UpworkTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -99,6 +161,10 @@
 				TargetAttributes = {
 					6BB6BDF32971A3B6002DFF14 = {
 						CreatedOnToolsVersion = 14.1;
+					};
+					6BB6BE0E2971C406002DFF14 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 6BB6BDF32971A3B6002DFF14;
 					};
 				};
 			};
@@ -116,6 +182,7 @@
 			projectRoot = "";
 			targets = (
 				6BB6BDF32971A3B6002DFF14 /* UpworkTest */,
+				6BB6BE0E2971C406002DFF14 /* UpworkTestTests */,
 			);
 		};
 /* End PBXProject section */
@@ -130,6 +197,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		6BB6BE0D2971C406002DFF14 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -138,11 +212,33 @@
 			buildActionMask = 2147483647;
 			files = (
 				6BB6BDFA2971A3B6002DFF14 /* ContentView.swift in Sources */,
+				6BB6BE0A2971A6A9002DFF14 /* UserRowView.swift in Sources */,
+				6BB6BE062971A3C2002DFF14 /* ViewModel.swift in Sources */,
 				6BB6BDF82971A3B6002DFF14 /* UpworkTestApp.swift in Sources */,
+				6BB6BE1B2971C564002DFF14 /* UserDetailView.swift in Sources */,
+				6BB6BE082971A427002DFF14 /* Model.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BB6BE0B2971C406002DFF14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BB6BE192971C42A002DFF14 /* Model.swift in Sources */,
+				6BB6BE182971C412002DFF14 /* ViewModel.swift in Sources */,
+				6BB6BE122971C406002DFF14 /* UpworkTestTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6BB6BE142971C406002DFF14 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6BB6BDF32971A3B6002DFF14 /* UpworkTest */;
+			targetProxy = 6BB6BE132971C406002DFF14 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		6BB6BE002971A3B7002DFF14 /* Debug */ = {
@@ -315,6 +411,40 @@
 			};
 			name = Release;
 		};
+		6BB6BE162971C406002DFF14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.selcuk.UpworkTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UpworkTest.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/UpworkTest";
+			};
+			name = Debug;
+		};
+		6BB6BE172971C406002DFF14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.selcuk.UpworkTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UpworkTest.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/UpworkTest";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -332,6 +462,15 @@
 			buildConfigurations = (
 				6BB6BE032971A3B7002DFF14 /* Debug */,
 				6BB6BE042971A3B7002DFF14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6BB6BE152971C406002DFF14 /* Build configuration list for PBXNativeTarget "UpworkTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BB6BE162971C406002DFF14 /* Debug */,
+				6BB6BE172971C406002DFF14 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
