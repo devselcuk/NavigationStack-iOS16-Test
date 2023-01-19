@@ -65,8 +65,8 @@ struct UserDetailView: View {
                        
                         
                 
-                    Section("Users Near \(user.fullName) (closer than 1km)") {
-                        ForEach(viewModel.users.filter({$0.isNear(of: user)}), id: \.id) { user in
+                    Section("Users Near \(user.fullName) (closer than 2500km)") {
+                        ForEach(viewModel.users.filter({$0.isNear(of: user) && $0.id != user.id}), id: \.id) { user in
                            UserRowView(user: user, path: $path )
                         }
                     }

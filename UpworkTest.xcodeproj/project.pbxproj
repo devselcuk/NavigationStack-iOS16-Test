@@ -84,11 +84,9 @@
 			isa = PBXGroup;
 			children = (
 				6BB6BDF72971A3B6002DFF14 /* UpworkTestApp.swift */,
-				6BB6BDF92971A3B6002DFF14 /* ContentView.swift */,
-				6BB6BE052971A3C2002DFF14 /* ViewModel.swift */,
-				6BB6BE072971A427002DFF14 /* Model.swift */,
-				6BB6BE092971A6A9002DFF14 /* UserRowView.swift */,
-				6BB6BE1A2971C564002DFF14 /* UserDetailView.swift */,
+				6BF5CB382979BA08002D54B0 /* ViewModel */,
+				6BF5CB362979B9E0002D54B0 /* Model */,
+				6BF5CB372979B9F7002D54B0 /* View */,
 				6BB6BDFB2971A3B7002DFF14 /* Assets.xcassets */,
 				6BB6BDFD2971A3B7002DFF14 /* Preview Content */,
 			);
@@ -109,6 +107,32 @@
 				6BB6BE112971C406002DFF14 /* UpworkTestTests.swift */,
 			);
 			path = UpworkTestTests;
+			sourceTree = "<group>";
+		};
+		6BF5CB362979B9E0002D54B0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6BB6BE072971A427002DFF14 /* Model.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6BF5CB372979B9F7002D54B0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6BB6BDF92971A3B6002DFF14 /* ContentView.swift */,
+				6BB6BE092971A6A9002DFF14 /* UserRowView.swift */,
+				6BB6BE1A2971C564002DFF14 /* UserDetailView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6BF5CB382979BA08002D54B0 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				6BB6BE052971A3C2002DFF14 /* ViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

@@ -11,8 +11,19 @@ struct ContentView: View {
     
     @ObservedObject var viewModel = ViewModel()
     
+    
+    /**
+         Navigation Path
+     Model driven navigation logic. Available from iOS 16
+     */
     @State private var path : [User] = []
+    
+    
     @State var navVisibility : NavigationSplitViewVisibility = .doubleColumn
+    
+    
+    
+    
     var body: some View {
         NavigationSplitView(columnVisibility : $navVisibility) {
             NavigationStack(path: $path) {

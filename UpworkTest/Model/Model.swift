@@ -70,7 +70,8 @@ struct User: Codable, Identifiable, Hashable {
         let userLocation = CLLocation(latitude: user.location.coordinates.latitude.toDouble(), longitude: user.location.coordinates.longitude.toDouble())
         let myLocation = CLLocation(latitude: location.coordinates.latitude.toDouble(), longitude: location.coordinates.longitude.toDouble())
         
-        return  myLocation.distance(from: userLocation) < 1000
+        
+        return  myLocation.distance(from: userLocation) < 2500000
 
     }
     
@@ -157,6 +158,6 @@ enum SortOption : String, CaseIterable {
 extension String {
     
     func toDouble() -> Double {
-        Double(Int(self) ?? 0)
+        Double(self) ?? 0
     }
 }
